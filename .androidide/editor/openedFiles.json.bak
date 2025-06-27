@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/D811-1621/AppStorage/AndroidIDE/Projects/DeepLinkRedirect/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/D811-1621/AppStorage/AndroidIDE/Projects/DeepLinkRedirect/app/src/main/AndroidManifest.xml"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <application 
+        android:label="DeepLink Redirect"
+        android:theme="@android:style/Theme.NoDisplay">
+        <activity 
+            android:name="MainActivity" 
+            android:exported="true">
+           <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                
+                <!-- Handle example.com/org links -->
+               <data android:scheme="https" android:host="example.com" />
+               <data android:scheme="http" android:host="example.com" />
+
+               <data android:scheme="https" android:host="example.org" />
+               <data android:scheme="http" android:host="example.org" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
